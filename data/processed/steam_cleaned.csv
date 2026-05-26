@@ -1,0 +1,32 @@
+name,price_clean,recommendations_total,release_year,Action,Adventure,Casual,Early Access,Free To Play,Indie,RPG,Simulation,Strategy,is_hit
+Stardew Valley,299.0,866432,2016,0,0,0,0,0,1,1,1,0,1
+Hollow Knight,12.79,485896,2017,1,1,0,0,0,1,0,0,0,1
+Terraria,8.5,1215208,2011,1,1,0,0,0,1,1,0,0,1
+Hades,20.99,281036,2020,1,0,0,0,0,1,1,0,0,1
+The Binding of Isaac: Rebirth,10.99,356917,2014,1,0,0,0,0,0,0,0,0,1
+Slay the Spire,19.99,188900,2019,0,0,0,0,0,1,0,0,1,1
+Valheim,15.49,452413,2021,1,1,0,1,0,1,1,0,0,1
+Counter-Strike 2,0.0,5098157,2012,1,0,0,0,1,0,0,0,0,1
+Dota 2,0.0,14371,2013,1,0,0,0,1,0,0,0,1,1
+The Witcher 3: Wild Hunt,29.99,815756,2015,0,0,0,0,0,0,1,0,0,1
+Portal,9.75,169136,2007,1,0,0,0,0,0,0,0,0,1
+Counter-Strike,7.19,168060,2000,1,0,0,0,0,0,0,0,0,1
+Day of Defeat,4.29,4424,2003,1,0,0,0,0,0,0,0,0,0
+Deathmatch Classic,4.29,2418,2001,1,0,0,0,0,0,0,0,0,0
+Half-Life: Opposing Force,4.29,24669,1999,1,0,0,0,0,0,0,0,0,1
+Ricochet,4.29,4518,2000,1,0,0,0,0,0,0,0,0,0
+Half-Life,194.0,114529,1998,1,0,0,0,0,0,0,0,0,1
+Half-Life: Blue Shift,200.0,18085,2001,1,0,0,0,0,0,0,0,0,1
+Half-Life 2,8.5,198025,2004,1,0,0,0,0,0,0,0,0,1
+Counter-Strike: Source,8.5,133824,2004,1,0,0,0,0,0,0,0,0,1
+Half-Life: Source,8.5,14516,2004,1,0,0,0,0,0,0,0,0,1
+Day of Defeat: Source,8.5,15842,2010,1,0,0,0,0,0,0,0,0,1
+Half-Life 2: Deathmatch,0.0,10107,2004,1,0,0,0,0,0,0,0,0,1
+Half-Life 2: Lost Coast,0.0,10549,2005,1,0,0,0,0,0,0,0,0,1
+Half-Life 2: Episode One,0.0,25888,2006,1,0,0,0,0,0,0,0,0,1
+Half-Life 2: Episode Two,0.0,33871,2007,1,0,0,0,0,0,0,0,0,1
+Left 4 Dead,385.0,56940,2008,1,0,0,0,0,0,0,0,0,1
+Portal 2,9.75,384052,2011,1,1,0,0,0,0,0,0,0,1
+Garry's Mod,6.99,1068833,2006,0,0,1,0,0,1,0,1,0,1
+The Elder Scrolls III: Morrowind® Game of the Year Edition,12.99,21826,2009,0,0,0,0,0,0,1,0,0,1
+Don't Starve Together,10.99,366879,2016,1,1,0,0,0,1,1,1,1,1

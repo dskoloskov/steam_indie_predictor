@@ -30,4 +30,4 @@ End-to-End Machine Learning проект для предсказания ком�
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone [https://github.com/dskoloskov/steam_indie_predictor.git](https://github.com/dskoloskov/steam_indie_predictor.git)
+   git clone https://github.com/dskoloskov/steam_indie_predictor.git

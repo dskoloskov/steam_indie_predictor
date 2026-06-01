@@ -1,6 +1,9 @@
+import os
 import asyncio
 import joblib
 import pandas as pd
+import logging
+from dotenv import load_dotenv  
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, URLInputFile
@@ -9,11 +12,6 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, URLInputFile
 # подгружаем сохраненные "мозги" нашей модели и список фичей
 model = joblib.load("data/models/rf_model.pkl")
 features = joblib.load("data/models/features.pkl")
-
-import os                            
-from dotenv import load_dotenv       
-import logging
-from aiogram import Bot, Dispatcher, types
 
 load_dotenv() 
 

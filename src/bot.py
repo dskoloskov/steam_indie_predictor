@@ -4,9 +4,11 @@ import joblib
 import pandas as pd
 import logging
 from dotenv import load_dotenv  
+from dotenv import load_dotenv   
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, URLInputFile
+from aiogram.client.session.aiohttp import AiohttpSession
 
 
 # подгружаем сохраненные "мозги" нашей модели и список фичей
@@ -15,10 +17,20 @@ features = joblib.load("data/models/features.pkl")
 
 load_dotenv() 
 
-BOT_TOKEN = os.getenv("BOT_TOKEN") 
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-bot = Bot(token=BOT_TOKEN)
+
+if os.environ.get('PYTHONANYWHERE_DOMAIN'):
+    print("Запуск на сервере: включаю прокси")
+    session = AiohttpSession(proxy="http://proxy.server:3128")
+    bot = Bot(token=BOT_TOKEN, session=session)
+else:
+    print("Запуск локально: работаю без прокси")
+    bot = Bot(token=BOT_TOKEN)
+
 dp = Dispatcher()
+
+
 
 main_kb = ReplyKeyboardMarkup(
     keyboard=[

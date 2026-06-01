@@ -5,11 +5,19 @@ from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import Command
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, URLInputFile
 
+
 # подгружаем сохраненные "мозги" нашей модели и список фичей
 model = joblib.load("data/models/rf_model.pkl")
 features = joblib.load("data/models/features.pkl")
 
-BOT_TOKEN = ""
+import os                            
+from dotenv import load_dotenv       
+import logging
+from aiogram import Bot, Dispatcher, types
+
+load_dotenv() 
+
+BOT_TOKEN = os.getenv("BOT_TOKEN") 
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()

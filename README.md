@@ -18,6 +18,9 @@ End-to-End Machine Learning проект для предсказания ком�
   <img src="images/verdict.png" width="30%" alt="Результат прогноза"/>
 </p>
 
+## Демонстрация
+🔗 [Запустить бота в Telegram](https://t.me/ТВОЙ_ЮЗЕРНЕЙМ_БОТА)
+
 ## 📂 Структура проекта
 * `/data` — сырые (`raw`) и очищенные (`processed`) датасеты, а также сохраненные веса модели (`models`).
 * `/notebooks` — Jupyter-ноутбук с разведочным анализом данных (EDA) и One-Hot Encoding.

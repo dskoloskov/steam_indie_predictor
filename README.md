@@ -10,6 +10,14 @@ End-to-End Machine Learning проект для предсказания ком�
 * **Machine Learning:** `scikit-learn` (RandomForestClassifier)
 * **Деплой:** `aiogram` (асинхронный Telegram-бот), `joblib`
 
+### Интерфейс Telegram-бота
+
+<p align="center">
+  <img src="assets/01_start.png" width="30%" alt="Приветствие бота"/>
+  <img src="assets/02_input.png" width="30%" alt="Ввод данных игры"/>
+  <img src="assets/03_result.png" width="30%" alt="Результат прогноза"/>
+</p>
+
 ## 📂 Структура проекта
 * `/data` — сырые (`raw`) и очищенные (`processed`) датасеты, а также сохраненные веса модели (`models`).
 * `/notebooks` — Jupyter-ноутбук с разведочным анализом данных (EDA) и One-Hot Encoding.

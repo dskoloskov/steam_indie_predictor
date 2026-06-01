@@ -19,7 +19,7 @@ End-to-End Machine Learning проект для предсказания ком�
 </p>
 
 ## Демонстрация
-🔗 [Запустить бота в Telegram](https://t.me/ТВОЙ_ЮЗЕРНЕЙМ_БОТА)
+🔗 [Запустить бота в Telegram](https://t.me/indie_hit_predict_bot)
 
 ## 📂 Структура проекта
 * `/data` — сырые (`raw`) и очищенные (`processed`) датасеты, а также сохраненные веса модели (`models`).
